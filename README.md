@@ -1,6 +1,7 @@
 # **Sentiment Analysis of Amazon Sales Review Dataset Using Multinomial Naive Bayes Method**
 
 **Description:**
+
 This project is a sentiment analysis project using a machine learning model. It analyzes Amazon product reviews to determine whether the sentiment expressed is positive, negative, or neutral. The project uses a dataset of Amazon product reviews (amazon.csv) and applies a Multinomial Naive Bayes model for classification.
 
 **Goals:**
@@ -11,6 +12,7 @@ This project is a sentiment analysis project using a machine learning model. It 
 4. Evaluating model performance: To assess the accuracy and performance of the trained model using metrics such as accuracy and classification report.
 
 **Insights:**
+
 1. Data preprocessing is crucial: Cleaning and preparing the data significantly impacts the model's performance. Steps like removing stop words, handling missing values, and converting ratings to sentiment categories are essential.
 2. TF-IDF effectively captures text features: Using TF-IDF to vectorize the text data allows the model to learn from the important words and phrases in the reviews.
 3. Multinomial Naive Bayes is a suitable model: This model performs well for text classification tasks and provides decent accuracy in sentiment analysis.
